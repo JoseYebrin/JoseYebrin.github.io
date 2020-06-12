@@ -20,6 +20,42 @@
       <h1>Relaxer</h1>
     </div>
 
+    <div class="greet-container">
+      <div class="greet">
+        <h2 id="title" style="margin-bottom: 40px;">
+          Choose your language:
+        </h2>
+        <div class="answer">
+          <div class="btn lang" id="en"><p>English</p></div>
+          <div class="btn lang" id="es"><p>Español</p></div>
+          <div class="btn gender" id="male" style="display: none;">
+            <p></p>
+          </div>
+          <div class="btn gender" id="female" style="display: none;">
+            <p></p>
+          </div>
+          <input
+            type="text"
+            maxlength="2"
+            style="display: none;"
+            data-tippy-content=""
+          /><!--
+          --><button id="entry" style="visibility: hidden;">
+            <i
+              class="fa fa-sign-in"
+              aria-hidden="true"
+              style="font-size: 20px;"
+            ></i>
+          </button>
+        </div>
+      </div>
+      <p id="support">
+        This Web App works best on Google Chrome.
+      </p>
+      <i class="fa fa-chrome" aria-hidden="true" style="font-size: 30px;"></i>
+      <div id="relax" style="display: none;"><p></p></div>
+    </div>
+
     <video autoplay muted loop id="bg">
       <source src="assets/bg-loop.mp4" type="video/mp4" />
     </video>
