@@ -1,0 +1,11 @@
+{
+  "gender": "Choose your gender:",
+  "male": "Male",
+  "female": "Female",
+  "age": "Type your age:",
+  "relax": "Let's do some breathing exercises and relax...",
+  "ready": "Get Ready",
+  "breathein": "Breathe In",
+  "hold": "Hold",
+  "breatheout": "Breathe Out"
+}
