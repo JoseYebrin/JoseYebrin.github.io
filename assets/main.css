@@ -198,7 +198,48 @@ button {
 }
 
 #relax {
-  margin: 100px 200px 0 200px;
+  margin: 18vh 15vw 0 15vw;
   font-weight: 900;
   font-size: 36px;
+}
+
+.support {
+  margin: 0 5vw;
+}
+
+@media only screen and (max-width: 576px), (max-height: 576px) {
+  .circle-container {
+    width: 210px;
+    height: 210px;
+  }
+
+  svg {
+    height: 230px !important;
+    width: 230px !important;
+  }
+
+  .pointer-container {
+    left: 98px;
+    height: 145px;
+    width: 14px;
+  }
+
+  .relaxer {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-height: 440px) {
+  .relaxer {
+    display: none;
+  }
+
+  .greet-container {
+    font-size: 80%;
+    padding-top: 0;
+  }
+
+  .answer {
+    height: 140px;
+  }
 }
