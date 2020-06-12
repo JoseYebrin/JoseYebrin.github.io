@@ -185,6 +185,7 @@ input {
 }
 
 button {
+  background-color: transparent;
   position: relative;
   display: inline-block;
   outline: none;
